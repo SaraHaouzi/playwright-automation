@@ -9,6 +9,8 @@ export class CartPage {
     this.product2Button = page.locator(
       '[data-test="add-to-cart-sauce-labs-bike-light"]',
     )
+    this.title =page.locator('[data-test="title"]')
+    this.count =page.locator('[data-test="shopping-cart-badge"]')
   }
 
   async openCartPage() {

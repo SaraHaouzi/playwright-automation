@@ -44,3 +44,11 @@ export const checkoutUser = {
   lastName: 'hauzi',
   postalCode: '1234',
 }
+export const locked_out_user={
+    username: 'locked_out_user',
+    password: 'secret_sauce',
+}
+export const standard={
+    username: 'standard_user',
+    password: 'secret_sauce',
+}

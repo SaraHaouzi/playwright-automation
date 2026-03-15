@@ -17,8 +17,5 @@ export class CheckoutStepOnePage {
     await this.lastNameField.fill(lastName)
     await this.postalCode.fill(postalCode)
   }
-  // You don't need to wrap a simple click() in a function, just use it straight in the test.
-  async continue_Button() {
-    await this.continueButton.click()
-  }
+
 }
